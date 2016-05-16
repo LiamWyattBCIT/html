@@ -28,7 +28,6 @@ body {
     <?php
     echo "<div>Backend Server: " . gethostname() . " "  . $_SERVER['SERVER_ADDR'] .  " </div>";
     echo "<div>Load Balancer IP: " . $_SERVER['REMOTE_ADDR'] . "</div>";
-    echo "<div>Your IP: " . $_SERVER['HTTP_X_FORWARDED_FOR'] . "</div>";
     ?>
     </div>
 </body>
